@@ -7,5 +7,5 @@ function botaoMostraPalavrasChave () {
     const campoResultado = document.querySelector('#resultado-palavrachave');
     const palavras = texto.split(" ");
 
-    campoResultado.textContent = texto;
+    campoResultado.textContent = palavras.join(", ");
 }
